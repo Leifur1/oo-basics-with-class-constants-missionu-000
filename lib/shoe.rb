@@ -17,6 +17,6 @@ class Shoe
     @brand = brand
     if brand != BRANDS.all?
       BRANDS << brand
+    end
   end
-
 end
